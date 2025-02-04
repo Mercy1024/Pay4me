@@ -25,7 +25,7 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <img src="/public/assets/pay4melogo.png" alt="logo" />
+        <img src="/assets/pay4melogo.png" alt="logo" />
       </div>
       <nav>
         <ul>
@@ -46,21 +46,21 @@ function Hero() {
       <div className="hero-content">
         <h1>Cross-Border Payments For International Students</h1>
         <div className="vector">
-          <img src="/public/assets/Vector.png" alt="vector" />
+          <img src="/assets/Vector.png" alt="vector" />
         </div>
         <p>
           The easiest and fastest way to pay tuition and fees to educational
           institutions, businesses, and government agencies worldwide.
         </p>
         <div className="hero-buttons">
-          <img src="/public/assets/PlaystoreIcon.png" alt="playstoreIcon" />
+          <img src="/assets/PlaystoreIcon.png" alt="playstoreIcon" />
         </div>
       </div>
       <div className="hero-image">
-        <img src="/public/assets/Mobile Screens.png" alt="hero" />
+        <img src="/assets/Mobile Screens.png" alt="hero" />
       </div>
       <div className="hero-image2">
-        <img src="/public/assets/illustration_1.png" alt="illustration1" />
+        <img src="/assets/illustration_1.png" alt="illustration1" />
       </div>
     </div>
   );
@@ -70,10 +70,10 @@ function Dots() {
   return (
     <>
       <div className="dots">
-        <img src="/public/assets/dots.png" alt="dots" />
+        <img src="/assets/dots.png" alt="dots" />
       </div>
       <div className="dots2">
-        <img src="/public/assets/dots.png" alt="dots" />
+        <img src="/assets/dots.png" alt="dots" />
       </div>
     </>
   );
@@ -83,19 +83,19 @@ function Ellipse() {
   return (
     <>
       <div className="ellipse_blue">
-        <img src="/public/assets/Ellipse_blue.png" alt="ellipse_blue" />
+        <img src="/assets/Ellipse_blue.png" alt="ellipse_blue" />
       </div>
       <div className="ellipse_red">
-        <img src="/public/assets/Ellipse_red.png" alt="ellipse_red" />
+        <img src="/assets/Ellipse_red.png" alt="ellipse_red" />
       </div>
       <div className="ellipse_red2">
-        <img src="/public/assets/Ellipse_red.png" alt="ellipse_red" />
+        <img src="/assets/Ellipse_red.png" alt="ellipse_red" />
       </div>
       <div className="ellipse_deep_blue">
-        <img src="/public/assets/deep_big_blue.png" alt="ellipse_deep" />
+        <img src="/assets/deep_big_blue.png" alt="ellipse_deep" />
       </div>
       <div className="ellipse_biggest">
-        <img src="/public/assets/biggest_ellipse.png" alt="ellipse_biggest" />
+        <img src="/assets/biggest_ellipse.png" alt="ellipse_biggest" />
       </div>
     </>
   );
@@ -140,7 +140,7 @@ function Numbers() {
 
   const formatNumber = (value) => {
     if (value >= 1000) {
-      return (value / 1000).toFixed(1) + "k+";
+      return (value / 1000).toFixed(0) + "k+";
     }
     return value;
   };
@@ -202,7 +202,7 @@ function Access() {
       <div className="access-item">
         <div className="access-image">
           <img
-            src="/public/assets/healthicons_crisis-response-center-person.png"
+            src="/assets/healthicons_crisis-response-center-person.png"
             alt="illustration"
           />
         </div>
@@ -216,10 +216,7 @@ function Access() {
       </div>
       <div className="access-item">
         <div className="access-image">
-          <img
-            src="/public/assets/devicon-plain_fastapi.png"
-            alt="illustration"
-          />
+          <img src="/assets/devicon-plain_fastapi.png" alt="illustration" />
         </div>
         <div className="access-content">
           <h4>Instantaneous transactions</h4>
@@ -231,7 +228,7 @@ function Access() {
       </div>
       <div className="access-item">
         <div className="access-image">
-          <img src="/public/assets/mdi_secure.png" alt="illustration" />
+          <img src="/assets/mdi_secure.png" alt="illustration" />
         </div>
         <div className="access-content">
           <h4>Secure Payments</h4>
@@ -249,7 +246,7 @@ function Tuition() {
   return (
     <div className="tuition">
       <div className="tuition-image">
-        <img src="/public/assets/illustration_2.png" alt="tuition" />
+        <img src="/assets/illustration_2.png" alt="tuition" />
       </div>
       <div className="tuition-content">
         <h1>Super Fast Tuition and School Fees Payments</h1>
@@ -260,10 +257,10 @@ function Tuition() {
         </p>
         <button>Make A Payment</button>
         <div className="vector2">
-          <img src="/public/assets/Vector-cash.png" alt="vector2" />
+          <img src="/assets/Vector-cash.png" alt="vector2" />
         </div>
         <div className="vector3">
-          <img src="/public/assets/tabler_currency-naira.png" alt="vector3" />
+          <img src="/assets/tabler_currency-naira.png" alt="vector3" />
         </div>
       </div>
     </div>
@@ -283,7 +280,7 @@ function Applications() {
         <button>Get Started</button>
       </div>
       <div className="application-image">
-        <img src="/public/assets/illustration_3.png" alt="application" />
+        <img src="/assets/illustration_3.png" alt="application" />
       </div>
     </div>
   );
@@ -293,11 +290,7 @@ function HowItWorksHeader() {
   return (
     <>
       <h1 className="how-it-works-header">How It works?</h1>
-      <img
-        className="vector4"
-        src="/public/assets/Vector(2).png"
-        alt="vector4"
-      />
+      <img className="vector4" src="/assets/Vector(2).png" alt="vector4" />
     </>
   );
 }
@@ -307,7 +300,7 @@ function HowItWorks() {
     <div className="how-it-works">
       <div className="how-it-works-item">
         <div className="download">
-          <img src="/public/assets/download.png" alt="download-icon" />
+          <img src="/assets/download.png" alt="download-icon" />
         </div>
 
         <h3>Download Pay4Me App</h3>
@@ -318,7 +311,7 @@ function HowItWorks() {
       </div>
       <div className="how-it-works-item">
         <div className="sign-up">
-          <img src="/public/assets/mdi_account.png" alt="sign-up" />
+          <img src="/assets/mdi_account.png" alt="sign-up" />
         </div>
 
         <h3>Sign Up</h3>
@@ -328,7 +321,7 @@ function HowItWorks() {
       </div>
       <div className="how-it-works-item">
         <div className="fast-pay">
-          <img src="/public/assets/fast-pay.png" alt="fast-pay" />
+          <img src="/assets/fast-pay.png" alt="fast-pay" />
         </div>
 
         <h3>Make Fast Payments</h3>
@@ -337,8 +330,8 @@ function HowItWorks() {
           institutions and applications.
         </p>
       </div>
-      <img className="line-1" src="/public/assets/line1.png" alt="line-1" />
-      <img className="line-2" src="/public/assets/line2.png" alt="line-2" />
+      <img className="line-1" src="/assets/line1.png" alt="line-1" />
+      <img className="line-2" src="/assets/line2.png" alt="line-2" />
       {/* <div className="vector5">
         <img src="/public/assets/tabler_currency-naira.png" alt="vector3" />
       </div> */}
@@ -353,45 +346,45 @@ function Slider() {
 
   const slides = [
     {
-      image: "/public/assets/Rectangle 38.png",
+      image: "/assets/Rectangle 38.png",
       title: "Navigating International Payments for Education without Stress",
       date: "December 29, 2024",
       category: "Education",
       author: "John Ebuka",
-      avatar: "/public/assets/Image.png",
+      avatar: "/assets/Image.png",
     },
     {
-      image: "/public/assets/Rectangle 38.png",
+      image: "/assets/Rectangle 38.png",
       title: "Step by Step on How to Pay Tuition from Nigeria to Ghana",
       date: "December 30, 2024",
       category: "Education",
       author: "John Ebuka",
-      avatar: "/public/assets/Image.png",
+      avatar: "/assets/Image.png",
     },
     {
-      image: "/public/assets/Rectangle 38.png",
+      image: "/assets/Rectangle 38.png",
       title:
         "Why Universities prefer Pay4Me app as their Africa Payment Partner",
       date: "December 30, 2024",
       category: "Education",
       author: "John Ebuka",
-      avatar: "/public/assets/Image.png",
+      avatar: "/assets/Image.png",
     },
     {
-      image: "/public/assets/Rectangle 38.png",
+      image: "/assets/Rectangle 38.png",
       title: "Understanding Global Education Payments",
       date: "December 31, 2024",
       category: "Education",
       author: "John Ebuka",
-      avatar: "/public/assets/Image.png",
+      avatar: "/assets/Image.png",
     },
     {
-      image: "/public/assets/Rectangle 38.png",
+      image: "/assets/Rectangle 38.png",
       title: "The Future of International Education Payments",
       date: "January 1, 2025",
       category: "Education",
       author: "John Ebuka",
-      avatar: "/public/assets/Image.png",
+      avatar: "/assets/Image.png",
     },
   ];
 
@@ -480,16 +473,8 @@ function SliderHead() {
         Latest Blog
         <br /> and Resources
       </h1>
-      <img
-        className="vector6"
-        src="/public/assets/Vector(3).png"
-        alt="vector6"
-      />
-      <img
-        className="vector7"
-        src="/public/assets/Vector-cash.png"
-        alt="vector7"
-      />
+      <img className="vector6" src="/assets/Vector(3).png" alt="vector6" />
+      <img className="vector7" src="/assets/Vector-cash.png" alt="vector7" />
     </div>
   );
 }
